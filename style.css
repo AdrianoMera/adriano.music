@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+  background-color: #000;
+}
+
+a{
+  color: white;
+  font-family:  "Arsenal SC", sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 1.5em;
+  
+}
+
+a:hover{
+  text-decoration: none;
+  background-color: cadetblue;
+  border-radius: 7px;
+  transition-duration: 0.5s;
+}
