@@ -5,25 +5,52 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor1: #140226;
+  --cor2: #261440;
+  --cor3: #383A59;
+  --cor4: #495F73;
+  --cor5: #93AEBF;
 }
 
 
 body {
-  background-color: #000;
+  background-color:var(--cor1);
+  background-image: linear-gradient(40deg, #140226,#383A59);
+  height: 100vh;
 }
 
-a{
+a {
   color: white;
   font-family:  "Arsenal SC", sans-serif;
   font-weight: bolder;
   text-decoration: none;
+  padding: 30px;
   font-size: 1.5em;
-  
+
 }
 
 a:hover{
   text-decoration: none;
-  background-color: cadetblue;
+  background-color: var(--cor3);
   border-radius: 7px;
   transition-duration: 0.5s;
+}
+
+h1 {
+  text-align: center;
+  margin:10px 0px 30px 0px;
+  
+}
+main {
+  background-color: white;
+  padding: 15px;
+  margin-left: 30px;
+  border-radius: 20px;
+  font-family:  "Arsenal SC", sans-serif;
+  height: 70vh;
+  width: 70vh;;
 }
