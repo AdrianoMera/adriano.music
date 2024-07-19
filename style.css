@@ -19,7 +19,7 @@
 
 body {
   background-color:var(--cor1);
-  background-image: linear-gradient(40deg, #140226,#383A59);
+  background-image: linear-gradient(45deg,var(--cor1), var(--cor4));
   height: 100vh;
 }
 
@@ -28,29 +28,39 @@ a {
   font-family:  "Arsenal SC", sans-serif;
   font-weight: bolder;
   text-decoration: none;
-  padding: 30px;
   font-size: 1.5em;
+  margin: 50px;
+}
 
+nav {
+  padding: 30px 40px 0px 100px;
+  
 }
 
 a:hover{
   text-decoration: none;
-  background-color: var(--cor3);
+  background-color: var(--cor1);
   border-radius: 7px;
-  transition-duration: 0.5s;
+  transition-duration: 0.8s;
+  
 }
 
 h1 {
+  background-image: linear-gradient(-90deg, var(--cor4), var(--cor3), var(--cor1));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  font-weight: bold;
   text-align: center;
   margin:10px 0px 30px 0px;
   
 }
 main {
+  font-family:  "Arsenal SC", sans-serif; 
   background-color: white;
   padding: 15px;
-  margin-left: 30px;
+  margin: 50px 0px 0px 50px;
   border-radius: 20px;
-  font-family:  "Arsenal SC", sans-serif;
-  height: 70vh;
-  width: 70vh;;
+  min-width: 320px;
+  max-width: 724px;
 }
